@@ -2,3 +2,8 @@
     - username- anshuman
     - pass - 12345
     - email - anshuman.n@yahoo.com
+
+- users 
+    - username - user1
+    - password - user1@pass
+    - email - user1@example.com
