@@ -11,6 +11,10 @@
 
 - Create super user using `python manage.py createsuperuser` and fill out necessary details
 
+### Tests
+
+- Test functions has been included inside the `restaurant` folder `tests.py` file 
+
 ### List of available endpoints
 
 1.  [Home Page](/) '/'
