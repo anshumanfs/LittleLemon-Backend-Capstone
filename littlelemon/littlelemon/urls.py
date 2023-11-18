@@ -21,9 +21,10 @@ from rest_framework import routers
 
 router = routers.DefaultRouter()
 
-router.register(r"tables", views.BookingViewSet)
+router.register("", views.BookingViewSet)
 
 urlpatterns = [
+    path("", views.index, name="index"),
     path("admin/", admin.site.urls),
     path("restaurant/", include("restaurant.urls")),
     path("restaurant/booking/", include(router.urls)),

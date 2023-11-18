@@ -9,11 +9,23 @@
 </head>
 
 <body>
-    <h1>
-        Welcome to Little Lemon Restaurant
-    </h1>
-
+    <div>
+        <h1>
+            Welcome to Little Lemon Restaurant
+        </h1>
+    </div>
     <img src="{% static '/img/logo.png' %}" alt="Logo" />
+    <div>
+        <h3>List of available endpoints</h3>
+        <ol>
+            <li><a href="/auth/users/">Create User</a></li>
+            <li><a href="/auth/users/me/">User Profile</a></li>
+            <li><a href="/auth/token/login/">Login</a></li>
+            <li><a href="/auth/token/logout/">Logout</a></li>
+            <li> <a href="/restaurant/menu">Menu</a></li>
+            <li><a href="/restaurant/booking">Booking</a></li>
+        </ol>
+    </div>
 </body>
 
 </html>
